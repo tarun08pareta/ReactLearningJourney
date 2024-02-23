@@ -5,12 +5,12 @@
 import Chai from "./chai"
 function App() {
   // const [count, setCount] = useState(0)
-
+const userName = "Tarun bahubali"
+const course = "vite & Raect"
   return (
-  // <h1>hello|| my name is Tarun Pareta and today learn how to install 
-  //   vite and react and how to run it
-  // </h1>
-  <Chai/>
+  <h1>hello|| my name is {userName} and today learn how to install  {course} and how to run it
+  </h1>
+  // <Chai/>
   )
 }
 
